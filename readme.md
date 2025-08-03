@@ -100,6 +100,7 @@ php bin/console doctrine:migrations:migrate
 ### Test Environment
 
 ```bash
+composer install
 php bin/console doctrine:database:create --env=test
 php bin/console doctrine:migrations:migrate --env=test
 ```
