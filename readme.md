@@ -53,7 +53,7 @@ A simple traffic tracking system for websites. It logs page visits using a JavaS
 
 ```bash
 git clone https://github.com/Kniazev/yomali_test_tracker.git
-cd traffic-tracker
+cd yomali_test_tracker
 ```
 
 ### 2. Start the Project
@@ -172,10 +172,4 @@ Embed the following script on any page you want to track:
 ```bash
 docker-compose down
 ```
-
----
-
-## 📝 License
-
-MIT © 2025 Dzmitry Kniazeu
 
