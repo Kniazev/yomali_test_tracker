@@ -1,0 +1,35 @@
+# Symfony / PHP
+/vendor/
+/var/
+/.env.local
+.env.*.local
+.phpunit.result.cache
+/build/
+/public/bundles/
+/config/secrets/prod/*
+
+# Symfony logs & cache
+/var/log/
+/var/cache/
+
+# Node / Vite / React
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.env.local
+
+# MySQL init logs
+/mysql-init/*.log
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
