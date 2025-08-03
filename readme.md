@@ -52,7 +52,7 @@ A simple traffic tracking system for websites. It logs page visits using a JavaS
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-name/traffic-tracker.git
+git clone https://github.com/Kniazev/yomali_test_tracker.git
 cd traffic-tracker
 ```
 
