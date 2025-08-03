@@ -1,0 +1,9 @@
+track_page_view:
+  path: /api/track
+  controller: App\Tracker\Controller\PageViewController::track
+  methods: [POST]
+
+page_view_stats:
+  path: /api/stats
+  controller: App\Tracker\Controller\PageViewController::stats
+  methods: [GET]

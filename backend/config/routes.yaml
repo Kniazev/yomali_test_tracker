@@ -1,0 +1,3 @@
+tracker_routes:
+    resource: ../src/Tracker/config/routes.yaml
+    type: yaml

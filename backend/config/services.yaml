@@ -1,0 +1,27 @@
+services:
+    App\Tracker\Domain\Repository\:
+        resource: '../src/Tracker/Domain/Repository/*'
+        public: false
+
+    App\Tracker\Application\:
+        resource: '../src/Tracker/Application/*'
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    App\Tracker\Infrastructure\Repository\:
+        resource: '../src/Tracker/Infrastructure/Repository/*'
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    App\Tracker\Controller\:
+        resource: '../src/Tracker/Controller/*'
+        autowire: true
+        autoconfigure: true
+        public: true
+        tags: ['controller.service_arguments']
+
+    App\Tracker\Domain\Repository\PageViewRepositoryInterface:
+        alias: App\Tracker\Infrastructure\Repository\PageViewRepository
+        public: false
